@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, Qjia.bdf
+source_file = 1, D:/work_and_study_ducuments/Verilog_Files/Quanjia.vwf
+source_file = 1, D:/work_and_study_ducuments/Verilog_Files/Waveform1.vwf
+source_file = 1, D:/work_and_study_ducuments/Verilog_Files/db/Quanjia.cbx.xml
+source_file = 1, D:/work_and_study_ducuments/Verilog_Files/quanjia.bdf
+design_name = Quanjia
+instance = comp, \si~output , si~output, Quanjia, 1
+instance = comp, \ci1~output , ci1~output, Quanjia, 1
+instance = comp, \Ci~input , Ci~input, Quanjia, 1
+instance = comp, \Bi~input , Bi~input, Quanjia, 1
+instance = comp, \Ai~input , Ai~input, Quanjia, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, Quanjia, 1

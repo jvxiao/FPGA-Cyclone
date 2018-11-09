@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\work_and_study_ducuments\Verilog_Files\simulation\qsim
+vQuanjia
+Z1 Io?S^fRcobdJ7BU1fjO;l=0
+Z2 VYfI=j5GM9h@F>RkhzSX?W1
+Z3 dD:\work_and_study_ducuments\Verilog_Files\simulation\qsim
+Z4 w1541732583
+Z5 8Quanjia.vo
+Z6 FQuanjia.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@quanjia
+!i10b 1
+Z10 !s100 XD6W5`0cg0nVCfZ6zF`5k2
+!s85 0
+Z11 !s108 1541732589.505000
+Z12 !s107 Quanjia.vo|
+Z13 !s90 -work|work|Quanjia.vo|
+!s101 -O0
+vQuanjia_vlg_check_tst
+!i10b 1
+!s100 =:ihX<Nhd0X^=J5DC:F0D1
+IM=ckKXJYDWTLZ:g;YY[Qd1
+VPz;zUhnML<G2djKNGHkdF1
+R3
+Z14 w1541732579
+Z15 8Quanjia.vwf.vt
+Z16 FQuanjia.vwf.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z17 !s108 1541732590.589000
+Z18 !s107 Quanjia.vwf.vt|
+Z19 !s90 -work|work|Quanjia.vwf.vt|
+!s101 -O0
+R8
+n@quanjia_vlg_check_tst
+vQuanjia_vlg_sample_tst
+!i10b 1
+!s100 @jA3?A3z;3Y^WKX@T5?lC3
+I826_CL<>ikEL2FjH?`jAL3
+VQPVW^?TcH;dLoiUQ1[cVQ0
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@quanjia_vlg_sample_tst
+vQuanjia_vlg_vec_tst
+!i10b 1
+!s100 9>V605U?bL4Ea@BV_mYIA1
+I_HcQ_R4HUXL;MQL4i4]>S3
+V7NPfVSIDS?=XnfL:Ij9Ff1
+R3
+R14
+R15
+R16
+L0 183
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@quanjia_vlg_vec_tst

@@ -1,0 +1,11 @@
+|Quanjia
+si <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Ai => inst.IN0
+Ai => inst1.IN0
+Bi => inst.IN1
+Bi => inst1.IN1
+Ci => inst3.IN1
+Ci => inst2.IN0
+ci1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
