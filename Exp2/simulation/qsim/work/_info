@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\work_and_study_ducuments\Verilog_Files\FPGA-Cyclone\Exp2\simulation\qsim
+vCounter6
+Z1 !s100 ZD_ldoRNU3Zh^BfTBEETm1
+Z2 I:eXR`ET5R^0d4:VBTCE<c2
+Z3 Vm::dX^Bm6oXT0z6RL^CHS3
+Z4 dD:\work_and_study_ducuments\Verilog_Files\FPGA-Cyclone\Exp2\simulation\qsim
+Z5 w1542944945
+Z6 8Counter6.vo
+Z7 FCounter6.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Counter6.vo|
+Z10 o-work work -O0
+Z11 n@counter6
+!i10b 1
+!s85 0
+Z12 !s108 1542944951.735000
+Z13 !s107 Counter6.vo|
+!s101 -O0
+vCounter6_vlg_check_tst
+!i10b 1
+!s100 XR@fM21=]5R]_06OT_^d<2
+I_iWd7>2YcQ?nVGjNUF6iJ0
+Z14 VfV:nH^OeFhNX7ZOM[WHDV0
+R4
+Z15 w1542944942
+Z16 8Waveform1.vwf.vt
+Z17 FWaveform1.vwf.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z18 !s108 1542944952.869000
+Z19 !s107 Waveform1.vwf.vt|
+Z20 !s90 -work|work|Waveform1.vwf.vt|
+!s101 -O0
+R10
+Z21 n@counter6_vlg_check_tst
+vCounter6_vlg_sample_tst
+!i10b 1
+Z22 !s100 gh2Y`YzPG2=da1zBIIm[T1
+Z23 IdT:M`[76JmZhcoU^lLDCe3
+Z24 V1Zna?=LDmT7MC?`52Tgj]1
+R4
+R15
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z25 n@counter6_vlg_sample_tst
+vCounter6_vlg_vec_tst
+!i10b 1
+!s100 zFAjMALN7L=SLD_hD6jfe3
+Ick^=>85`@c?R6E8@SM=XM3
+Z26 VbHI8BN10:IT7KA:H:M9m41
+R4
+R15
+R16
+R17
+L0 581
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z27 n@counter6_vlg_vec_tst
