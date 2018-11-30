@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\work_and_study_ducuments\Verilog_Files\FPGA-Cyclone\Exp3\simulation\qsim
+vtraffic
+Z1 !s100 ;>6H:Fd^n^2JmAI0TfZM_0
+Z2 IFFe@?Y3H8gP6SJ[XTd7AA1
+Z3 V2Y@Qnf10J[jO<DeAH^?5[1
+Z4 dD:\work_and_study_ducuments\Verilog_Files\FPGA-Cyclone\Exp3\simulation\qsim
+Z5 w1543549829
+Z6 8traffic.vo
+Z7 Ftraffic.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|traffic.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1543549845.812000
+Z12 !s107 traffic.vo|
+!s101 -O0
+vtraffic_vlg_check_tst
+!i10b 1
+!s100 aCY1^nD;nWQBT[cW>b3Yf3
+IDR`ImM;?gnU:g?UJ:PJ_X1
+Z13 VJmL><bnFI`C]GTh?QT1zX0
+R4
+Z14 w1543549822
+Z15 8Waveform.vwf.vt
+Z16 FWaveform.vwf.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z17 !s108 1543549849.817000
+Z18 !s107 Waveform.vwf.vt|
+Z19 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+vtraffic_vlg_sample_tst
+!i10b 1
+Z20 !s100 o2HRg?e?j6J]4B^ki5LIO2
+Z21 IoIdYc2IPc4NNfODL^BKgJ2
+Z22 V85ZU8:9lC1g8Ia?>?F[8M3
+R4
+R14
+R15
+R16
+L0 29
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
+vtraffic_vlg_vec_tst
+!i10b 1
+Z23 !s100 Y46fOP`J3iKJ;jIN5bUF61
+Z24 Ik=zEzkbZJAR7=F=I7[Y7e2
+Z25 V9[ZV5C9OKHjZVTJLcbK<d2
+R4
+R14
+R15
+R16
+Z26 L0 932
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
