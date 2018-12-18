@@ -1,0 +1,76 @@
+module clock(clk,rst_n,key1,key2,clock_hour,clock_minute,clock_second);
+
+input clk;
+input rst_n;
+input key1,key2;//key1调时，key2调分
+
+reg clk_1m;
+reg clk_1h;
+
+output reg [7:0]clock_second;
+output reg [7:0]clock_minute;
+output reg [7:0]clock_hour;
+
+always@(posedge clk or negedge rst_n)
+  begin 
+	 if(rst_n==0)
+       clock_second<=0;
+	  else 
+	    begin
+		   if(clock_second==8'h59)
+			  begin
+	          clock_second<=0;
+				 clk_1m<=1;
+			  end
+			else 
+			  begin
+			    clk_1m<=0;
+			    if(clock_second[3:0]==9)
+			      clock_second<=clock_second+8'h7;
+			    else
+			      clock_second<=clock_second+1;
+			  end
+		 end
+  end
+  
+  
+always@(posedge clk_1m or negedge rst_n)
+  begin 
+	  if(rst_n==0)
+        clock_minute<=0;  
+	  else if(clock_minute==8'h59)
+	     begin 
+			 clock_minute<=0;
+			 clk_1h<=1;
+		  end
+	  else if(key2==0)//调分按下
+	     clock_minute<=clock_minute+1;
+	  else
+	    begin
+		   clk_1h<=0; 
+			if(clock_minute[3:0]==9)
+			  clock_minute<=clock_minute+8'h7;
+			else
+			  clock_minute<=clock_minute+1;
+		 end
+  end
+  
+  
+always@(posedge clk_1h or negedge rst_n)
+  begin 
+	  if(rst_n==0)
+        clock_hour<=0;
+	  else if(clock_hour==8'h23&&clock_minute==8'h59)
+	        clock_hour<=0;
+	  else if(key1==0)//调时
+	     clock_hour<=clock_hour+1;
+	  else
+	    begin 
+			if(clock_hour[3:0]==9)
+			  clock_hour<=clock_hour+8'h7;
+			else
+			  clock_hour<=clock_hour+1;
+		 end
+  end
+  
+endmodule

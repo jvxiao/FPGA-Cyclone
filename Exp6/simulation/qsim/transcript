@@ -1,0 +1,82 @@
+# do digitalclock.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module digitalclock
+# 
+# Top level modules:
+# 	digitalclock
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module digitalclock_vlg_sample_tst
+# -- Compiling module digitalclock_vlg_check_tst
+# -- Compiling module digitalclock_vlg_vec_tst
+# 
+# Top level modules:
+# 	digitalclock_vlg_vec_tst
+# vsim -L cycloneiv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.digitalclock_vlg_vec_tst 
+# Loading work.digitalclock_vlg_vec_tst
+# Loading work.digitalclock
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.digitalclock_vlg_sample_tst
+# Loading work.digitalclock_vlg_check_tst
+# Loading altera_ver.PRIM_GDFF_LOW
+# ERROR! Vector Mismatch for output port cnt_min[0] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 00000011
+# ERROR! Vector Mismatch for output port cnt_min[1] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 00000011
+# ERROR! Vector Mismatch for output port cnt_sec[0] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 00010001
+# ERROR! Vector Mismatch for output port cnt_sec[4] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 00010001
+# ERROR! Vector Mismatch for output port cnt_sec[1] :: @time = 1005000.000 ps
+#      Expected value = 00000000
+#      Real value = 00010010
+# ERROR! Vector Mismatch for output port cnt_sec[2] :: @time = 1015000.000 ps
+#      Expected value = 00000000
+#      Real value = 00010100
+# ERROR! Vector Mismatch for output port cnt_sec[3] :: @time = 1035000.000 ps
+#      Expected value = 00000000
+#      Real value = 00011000
+# ERROR! Vector Mismatch for output port cnt_sec[5] :: @time = 1075000.000 ps
+#      Expected value = 00000000
+#      Real value = 00100000
+# ERROR! Vector Mismatch for output port cnt_min[2] :: @time = 1220000.000 ps
+#      Expected value = 00000000
+#      Real value = 00000100
+# ERROR! Vector Mismatch for output port cnt_min[3] :: @time = 2440000.000 ps
+#      Expected value = 00000000
+#      Real value = 00001000
+# ERROR! Vector Mismatch for output port cnt_min[4] :: @time = 4880000.000 ps
+#      Expected value = 00000000
+#      Real value = 00010000
+# ERROR! Vector Mismatch for output port cnt_min[5] :: @time = 9760000.000 ps
+#      Expected value = 00000000
+#      Real value = 00100000
+# ERROR! Vector Mismatch for output port cnt_hr[0] :: @time = 18605000.000 ps
+#      Expected value = 00000000
+#      Real value = 00000001
+# ERROR! Vector Mismatch for output port cnt_hr[1] :: @time = 18910000.000 ps
+#      Expected value = 00000000
+#      Real value = 00000010
+# ERROR! Vector Mismatch for output port cnt_hr[2] :: @time = 19520000.000 ps
+#      Expected value = 00000000
+#      Real value = 00000100
+# ERROR! Vector Mismatch for output port cnt_hr[3] :: @time = 20740000.000 ps
+#      Expected value = 00000000
+#      Real value = 00001000
+# ERROR! Vector Mismatch for output port cnt_hr[4] :: @time = 23180000.000 ps
+#      Expected value = 00000000
+#      Real value = 00010000
+#          17 mismatched vectors : Simulation failed !
+# ** Note: $finish    : Waveform1.vwf.vt(1455)
+#    Time: 50 us  Iteration: 0  Instance: /digitalclock_vlg_vec_tst/tb_out

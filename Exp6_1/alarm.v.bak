@@ -1,0 +1,55 @@
+module alarm(clk,key1,key2,rst_n,clock_hour,clock_minute,clock_second,alarm_hour,alarm_minute,alarm_second,beep);
+
+input clk;
+input key1,key2,rst_n;
+input [7:0]clock_second;
+input [7:0]clock_minute;
+input [7:0]clock_hour;
+
+
+output reg [7:0]alarm_hour;
+output reg [7:0]alarm_minute;
+output reg [7:0]alarm_second;
+output beep;
+
+//闹钟设置及整点报时
+always@(posedge clk or negedge rst_n)
+  begin
+    if(rst_n==0)
+	   begin
+		  alarm_hour<=0;
+		  alarm_minute<=0;
+		  alarm_second<=0;
+		end
+    else 
+	   begin
+		  if(key2==0)
+		    begin
+		        alarm_minute<=alarm_minute+1;
+		      if(alarm_minute==8'h59) 
+			     alarm_minute<=0;
+				else if(alarm_minute[3:0]==9)
+			     alarm_minute<=alarm_minute+8'h7;
+			   else
+			     alarm_minute<=alarm_minute+1;
+		    end
+		  else if(key1==0)
+		    begin
+		        alarm_hour<=alarm_hour+1;
+		      if(alarm_hour==8'h23) 
+			     alarm_hour<=0;
+				else if(alarm_hour[3:0]==9)
+			     alarm_hour<=alarm_hour+8'h7;
+			   else
+			     alarm_hour<=alarm_hour+1;
+		    end
+		end
+  end
+			 
+
+wire beep_hour=((clock_minute==0)&&(clock_second==0));
+wire beep_alarm=((clock_hour==alarm_hour)&&(clock_minute==alarm_minute));			 
+assign beep=beep_alarm||beep_hour;	 
+
+endmodule   
+		  

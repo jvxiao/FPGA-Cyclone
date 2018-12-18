@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\work_and_study_ducuments\Verilog_Files\FPGA-Cyclone\Exp6\simulation\qsim
+vdigitalclock
+Z1 !s100 1CH6Na[NeWoO9l:Ic^hY21
+Z2 Io4<1R:NdNI:jP<78>0`bR2
+Z3 VzOnaB]RB;PIlz7YB5NCe01
+Z4 dD:\work_and_study_ducuments\Verilog_Files\FPGA-Cyclone\Exp6\simulation\qsim
+Z5 w1544192598
+Z6 8digitalclock.vo
+Z7 Fdigitalclock.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|digitalclock.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1544192604.196000
+Z12 !s107 digitalclock.vo|
+!s101 -O0
+vdigitalclock_vlg_check_tst
+!i10b 1
+!s100 =Oo_X4fkez?ZDEcag_Q^L0
+I1EEGC:dh_MC`7aQAQ_zQ`1
+Z13 VB5^Rjkmc2?1YAe^bLzY`I2
+R4
+Z14 w1544192595
+Z15 8Waveform1.vwf.vt
+Z16 FWaveform1.vwf.vt
+L0 65
+R8
+r1
+!s85 0
+31
+Z17 !s108 1544192605.277000
+Z18 !s107 Waveform1.vwf.vt|
+Z19 !s90 -work|work|Waveform1.vwf.vt|
+!s101 -O0
+R10
+vdigitalclock_vlg_sample_tst
+!i10b 1
+Z20 !s100 0nT]mchj5O]J2efl>5AFL3
+Z21 I4YOEJSQWR1MM_AHnP6ERT3
+Z22 VghJ7[@kD]lYmF:;01fJf60
+R4
+R14
+R15
+R16
+L0 29
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
+vdigitalclock_vlg_vec_tst
+!i10b 1
+!s100 KSUDN4[MOBdT``VKRcn<E1
+I8>jGMoSYR<mZg49o1gziU2
+Z23 V?M0:87^;5SKikf1P3hJT03
+R4
+R14
+R15
+R16
+Z24 L0 1459
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
