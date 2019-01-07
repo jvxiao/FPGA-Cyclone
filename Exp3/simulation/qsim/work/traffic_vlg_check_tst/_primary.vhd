@@ -12,6 +12,7 @@ entity traffic_vlg_check_tst is
         SG1             : in     vl_logic_vector(6 downto 0);
         SG4             : in     vl_logic_vector(6 downto 0);
         SG5             : in     vl_logic_vector(6 downto 0);
+        sec_cnt         : in     vl_logic_vector(7 downto 0);
         state           : in     vl_logic_vector(2 downto 0);
         sampler_rx      : in     vl_logic
     );

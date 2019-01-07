@@ -8,6 +8,9 @@ entity top_clock_vlg_check_tst is
         SG3             : in     vl_logic_vector(6 downto 0);
         SG4             : in     vl_logic_vector(6 downto 0);
         SG5             : in     vl_logic_vector(6 downto 0);
+        clock_hour      : in     vl_logic_vector(7 downto 0);
+        clock_minute    : in     vl_logic_vector(7 downto 0);
+        clock_second    : in     vl_logic_vector(7 downto 0);
         led             : in     vl_logic;
         sampler_rx      : in     vl_logic
     );

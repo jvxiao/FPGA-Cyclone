@@ -1,5 +1,5 @@
 Analysis & Synthesis report for top_clock
-Fri Dec 14 10:51:40 2018
+Sun Dec 30 13:59:54 2018
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
 
 
@@ -46,14 +46,14 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Dec 14 10:51:40 2018       ;
+; Analysis & Synthesis Status     ; Successful - Sun Dec 30 13:59:54 2018       ;
 ; Quartus II 64-Bit Version       ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
 ; Revision Name                   ; top_clock                                   ;
 ; Top-level Entity Name           ; top_clock                                   ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
 ; Total registers                 ; 96                                          ;
-; Total pins                      ; 51                                          ;
+; Total pins                      ; 75                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -162,11 +162,12 @@ applicable agreement for further details.
 ; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
+; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
+;     Processor 2            ; < 0.1%      ;
+;     Processors 3-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -202,12 +203,12 @@ applicable agreement for further details.
 ;                                             ;                 ;
 ; Dedicated logic registers                   ; 96              ;
 ;                                             ;                 ;
-; I/O pins                                    ; 51              ;
+; I/O pins                                    ; 75              ;
 ; Total DSP Blocks                            ; 0               ;
 ; Maximum fan-out node                        ; key_in[0]~input ;
 ; Maximum fan-out                             ; 96              ;
-; Total fan-out                               ; 1464            ;
-; Average fan-out                             ; 2.82            ;
+; Total fan-out                               ; 1512            ;
+; Average fan-out                             ; 2.66            ;
 +---------------------------------------------+-----------------+
 
 
@@ -216,7 +217,7 @@ applicable agreement for further details.
 +----------------------------+-------------------+--------------+-------------------+------------+------+--------------+------------------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name          ; Library Name ;
 +----------------------------+-------------------+--------------+-------------------+------------+------+--------------+------------------------------+--------------+
-; |top_clock                 ; 322 (0)           ; 96 (0)       ; 0                 ; 0          ; 51   ; 0            ; |top_clock                   ; work         ;
+; |top_clock                 ; 322 (0)           ; 96 (0)       ; 0                 ; 0          ; 75   ; 0            ; |top_clock                   ; work         ;
 ;    |alarm:U4|              ; 49 (49)           ; 16 (16)      ; 0                 ; 0          ; 0    ; 0            ; |top_clock|alarm:U4          ; work         ;
 ;    |clock:U3|              ; 86 (86)           ; 26 (26)      ; 0                 ; 0          ; 0    ; 0            ; |top_clock|clock:U3          ; work         ;
 ;    |display:U6|            ; 93 (51)           ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |top_clock|display:U6        ; work         ;
@@ -365,7 +366,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -375,12 +376,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
-    Info: Processing started: Fri Dec 14 10:51:38 2018
+    Info: Processing started: Sun Dec 30 13:59:51 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off top_clock -c top_clock
 Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
 Info (12021): Found 1 design units, including 1 entities, in source file watch.v
     Info (12023): Found entity 1: watch
-Warning (10275): Verilog HDL Module Instantiation warning at top_clock.v(68): ignored dangling comma in List of Port Connections
+Warning (10275): Verilog HDL Module Instantiation warning at top_clock.v(71): ignored dangling comma in List of Port Connections
 Info (12021): Found 1 design units, including 1 entities, in source file top_clock.v
     Info (12023): Found entity 1: top_clock
 Info (12021): Found 1 design units, including 1 entities, in source file sg7.v
@@ -527,14 +528,14 @@ Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 1 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "key_in[1]"
-Info (21057): Implemented 375 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 399 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 8 input pins
-    Info (21059): Implemented 43 output pins
+    Info (21059): Implemented 67 output pins
     Info (21061): Implemented 324 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 98 warnings
-    Info: Peak virtual memory: 580 megabytes
-    Info: Processing ended: Fri Dec 14 10:51:40 2018
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 568 megabytes
+    Info: Processing ended: Sun Dec 30 13:59:54 2018
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
 
 

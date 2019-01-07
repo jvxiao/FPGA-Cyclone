@@ -9,6 +9,7 @@ entity Counter6 is
         SG_0            : out    vl_logic_vector(6 downto 0);
         SG_1            : out    vl_logic_vector(6 downto 0);
         SG_2            : out    vl_logic_vector(6 downto 0);
-        d               : out    vl_logic
+        d               : out    vl_logic;
+        q               : out    vl_logic_vector(11 downto 0)
     );
 end Counter6;

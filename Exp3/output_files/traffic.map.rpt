@@ -1,5 +1,5 @@
 Analysis & Synthesis report for traffic
-Fri Nov 30 11:43:09 2018
+Sun Dec 30 11:35:06 2018
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
 
 
@@ -45,14 +45,14 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Nov 30 11:43:09 2018       ;
+; Analysis & Synthesis Status     ; Successful - Sun Dec 30 11:35:06 2018       ;
 ; Quartus II 64-Bit Version       ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
 ; Revision Name                   ; traffic                                     ;
 ; Top-level Entity Name           ; traffic                                     ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
 ; Total registers                 ; 17                                          ;
-; Total pins                      ; 40                                          ;
+; Total pins                      ; 48                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -194,12 +194,12 @@ applicable agreement for further details.
 ;                                             ;             ;
 ; Dedicated logic registers                   ; 17          ;
 ;                                             ;             ;
-; I/O pins                                    ; 40          ;
+; I/O pins                                    ; 48          ;
 ; Total DSP Blocks                            ; 0           ;
 ; Maximum fan-out node                        ; rst_n~input ;
 ; Maximum fan-out                             ; 25          ;
-; Total fan-out                               ; 256         ;
-; Average fan-out                             ; 1.88        ;
+; Total fan-out                               ; 272         ;
+; Average fan-out                             ; 1.79        ;
 +---------------------------------------------+-------------+
 
 
@@ -208,7 +208,7 @@ applicable agreement for further details.
 +----------------------------+-------------------+--------------+-------------------+------------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------------+------------+------+--------------+---------------------+--------------+
-; |traffic                   ; 39 (39)           ; 17 (17)      ; 0                 ; 0          ; 40   ; 0            ; |traffic            ; work         ;
+; |traffic                   ; 39 (39)           ; 17 (17)      ; 0                 ; 0          ; 48   ; 0            ; |traffic            ; work         ;
 +----------------------------+-------------------+--------------+-------------------+------------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -245,7 +245,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 ; 11:1               ; 2 bits    ; 14 LEs        ; 4 LEs                ; 10 LEs                 ; Yes        ; |traffic|MY~reg0           ;
-; 11:1               ; 7 bits    ; 49 LEs        ; 21 LEs               ; 28 LEs                 ; Yes        ; |traffic|sec_cnt[7]        ;
+; 11:1               ; 7 bits    ; 49 LEs        ; 21 LEs               ; 28 LEs                 ; Yes        ; |traffic|sec_cnt[0]~reg0   ;
 ; 13:1               ; 2 bits    ; 16 LEs        ; 4 LEs                ; 12 LEs                 ; Yes        ; |traffic|MR~reg0           ;
 ; 13:1               ; 2 bits    ; 16 LEs        ; 4 LEs                ; 12 LEs                 ; Yes        ; |traffic|MG~reg0           ;
 ; 3:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; No         ; |traffic|sec_cnt1[1]       ;
@@ -281,7 +281,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
-    Info: Processing started: Fri Nov 30 11:43:07 2018
+    Info: Processing started: Sun Dec 30 11:35:04 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off traffic -c traffic
 Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
 Info (12021): Found 1 design units, including 1 entities, in source file traffic.v
@@ -289,10 +289,10 @@ Info (12021): Found 1 design units, including 1 entities, in source file traffic
 Info (12127): Elaborating entity "traffic" for the top level hierarchy
 Warning (10036): Verilog HDL or VHDL warning at traffic.v(27): object "sw" assigned a value but never read
 Warning (10036): Verilog HDL or VHDL warning at traffic.v(28): object "gw" assigned a value but never read
-Warning (10034): Output port "SG0" at traffic.v(16) has no driver
-Warning (10034): Output port "SG1" at traffic.v(17) has no driver
-Warning (10034): Output port "SG4" at traffic.v(18) has no driver
-Warning (10034): Output port "SG5" at traffic.v(19) has no driver
+Warning (10034): Output port "SG0" at traffic.v(17) has no driver
+Warning (10034): Output port "SG1" at traffic.v(18) has no driver
+Warning (10034): Output port "SG4" at traffic.v(19) has no driver
+Warning (10034): Output port "SG5" at traffic.v(20) has no driver
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "SG0[0]" is stuck at GND
     Warning (13410): Pin "SG0[1]" is stuck at GND
@@ -326,14 +326,14 @@ Info (286030): Timing-Driven Synthesis is running
 Info (144001): Generated suppressed messages file D:/work_and_study_ducuments/Verilog_Files/FPGA-Cyclone/Exp3/output_files/traffic.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 83 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 91 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 3 input pins
-    Info (21059): Implemented 37 output pins
+    Info (21059): Implemented 45 output pins
     Info (21061): Implemented 43 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 35 warnings
-    Info: Peak virtual memory: 572 megabytes
-    Info: Processing ended: Fri Nov 30 11:43:11 2018
-    Info: Elapsed time: 00:00:04
+    Info: Peak virtual memory: 580 megabytes
+    Info: Processing ended: Sun Dec 30 11:35:06 2018
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
 

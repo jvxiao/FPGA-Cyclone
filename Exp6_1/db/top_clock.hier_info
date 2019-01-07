@@ -50,6 +50,30 @@ SG5[4] << display:U6.SG5
 SG5[5] << display:U6.SG5
 SG5[6] << display:U6.SG5
 led << clock:U3.led
+clock_hour[0] << clock_hour[0].DB_MAX_OUTPUT_PORT_TYPE
+clock_hour[1] << clock_hour[1].DB_MAX_OUTPUT_PORT_TYPE
+clock_hour[2] << clock_hour[2].DB_MAX_OUTPUT_PORT_TYPE
+clock_hour[3] << clock_hour[3].DB_MAX_OUTPUT_PORT_TYPE
+clock_hour[4] << clock_hour[4].DB_MAX_OUTPUT_PORT_TYPE
+clock_hour[5] << clock_hour[5].DB_MAX_OUTPUT_PORT_TYPE
+clock_hour[6] << clock_hour[6].DB_MAX_OUTPUT_PORT_TYPE
+clock_hour[7] << clock_hour[7].DB_MAX_OUTPUT_PORT_TYPE
+clock_minute[0] << clock_minute[0].DB_MAX_OUTPUT_PORT_TYPE
+clock_minute[1] << clock_minute[1].DB_MAX_OUTPUT_PORT_TYPE
+clock_minute[2] << clock_minute[2].DB_MAX_OUTPUT_PORT_TYPE
+clock_minute[3] << clock_minute[3].DB_MAX_OUTPUT_PORT_TYPE
+clock_minute[4] << clock_minute[4].DB_MAX_OUTPUT_PORT_TYPE
+clock_minute[5] << clock_minute[5].DB_MAX_OUTPUT_PORT_TYPE
+clock_minute[6] << clock_minute[6].DB_MAX_OUTPUT_PORT_TYPE
+clock_minute[7] << clock_minute[7].DB_MAX_OUTPUT_PORT_TYPE
+clock_second[0] << clock_second[0].DB_MAX_OUTPUT_PORT_TYPE
+clock_second[1] << clock_second[1].DB_MAX_OUTPUT_PORT_TYPE
+clock_second[2] << clock_second[2].DB_MAX_OUTPUT_PORT_TYPE
+clock_second[3] << clock_second[3].DB_MAX_OUTPUT_PORT_TYPE
+clock_second[4] << clock_second[4].DB_MAX_OUTPUT_PORT_TYPE
+clock_second[5] << clock_second[5].DB_MAX_OUTPUT_PORT_TYPE
+clock_second[6] << clock_second[6].DB_MAX_OUTPUT_PORT_TYPE
+clock_second[7] << clock_second[7].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |top_clock|freq:U1

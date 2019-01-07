@@ -22,34 +22,34 @@
 # Loading altera_ver.PRIM_GDFF_LOW
 # ERROR! Vector Mismatch for output port seq_last6[0] :: @time = 1000000.000 ps
 #      Expected value = 000000
-#      Real value = 010011
+#      Real value = 100111
 # ERROR! Vector Mismatch for output port seq_last6[1] :: @time = 1000000.000 ps
 #      Expected value = 000000
-#      Real value = 010011
-# ERROR! Vector Mismatch for output port seq_last6[4] :: @time = 1000000.000 ps
+#      Real value = 100111
+# ERROR! Vector Mismatch for output port seq_last6[2] :: @time = 1000000.000 ps
 #      Expected value = 000000
-#      Real value = 010011
+#      Real value = 100111
+# ERROR! Vector Mismatch for output port seq_last6[5] :: @time = 1000000.000 ps
+#      Expected value = 000000
+#      Real value = 100111
 # ERROR! Vector Mismatch for output port state[1] :: @time = 1000000.000 ps
 #      Expected value = 000
 #      Real value = 010
-# ERROR! Vector Mismatch for output port seq_last6[2] :: @time = 1100000.000 ps
+# ERROR! Vector Mismatch for output port seq_last6[3] :: @time = 1010000.000 ps
 #      Expected value = 000000
-#      Real value = 100110
-# ERROR! Vector Mismatch for output port seq_last6[5] :: @time = 1100000.000 ps
-#      Expected value = 000000
-#      Real value = 100110
-# ERROR! Vector Mismatch for output port state[0] :: @time = 1100000.000 ps
+#      Real value = 001110
+# ERROR! Vector Mismatch for output port state[0] :: @time = 1010000.000 ps
 #      Expected value = 000
 #      Real value = 011
-# ERROR! Vector Mismatch for output port seq_last6[3] :: @time = 1200000.000 ps
+# ERROR! Vector Mismatch for output port seq_last6[4] :: @time = 1020000.000 ps
 #      Expected value = 000000
-#      Real value = 001101
-# ERROR! Vector Mismatch for output port state[2] :: @time = 1200000.000 ps
+#      Real value = 011101
+# ERROR! Vector Mismatch for output port state[2] :: @time = 1020000.000 ps
 #      Expected value = 000
 #      Real value = 100
-# ERROR! Vector Mismatch for output port led :: @time = 1600000.000 ps
+# ERROR! Vector Mismatch for output port led :: @time = 1030000.000 ps
 #      Expected value = 0
 #      Real value = 1
 #          10 mismatched vectors : Simulation failed !
 # ** Note: $finish    : Waveform.vwf.vt(340)
-#    Time: 10 us  Iteration: 0  Instance: /sig_vlg_vec_tst/tb_out
+#    Time: 20 us  Iteration: 0  Instance: /sig_vlg_vec_tst/tb_out

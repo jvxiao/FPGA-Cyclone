@@ -1,0 +1,95 @@
+module freq(input clk,
+            input rst_n,
+				input [1:0]clk_key,//频率选择键
+				output reg rom_clk,
+				output reg [7:0]freq_seg,//数码管显示对应的频率，单位Hz
+				output [6:0]SG0,
+            output [6:0]SG1
+				);
+				
+				
+reg clk_2;//25M
+reg clk_4;//12M
+reg cnt;
+reg clk_8;//6M
+
+
+always@(posedge clk or negedge rst_n)
+  begin
+    if(!rst_n)
+	   clk_2<=0;
+	 else 
+	   clk_2<=~clk_2;
+  end
+  
+always@(posedge clk or negedge rst_n)
+  begin
+    if(!rst_n)
+	   begin
+		  clk_4<=0;
+		  cnt<=0;
+		end
+	 else if(cnt==1)
+	   begin
+		  clk_4<=~clk_4;
+		  cnt<=0;
+		end
+	 else
+	   begin
+		  clk_4<=clk_4;
+		  cnt<=cnt+1;
+		end
+  end
+
+/*always@(posedge clk_2 or negedge rst_n)
+  begin
+    if(!rst_n)
+	   clk_4<=0;
+	 else 
+	   clk_4<=~clk_4;
+  end*/  
+  
+always@(posedge clk_4 or negedge rst_n)
+  begin
+    if(!rst_n)
+	   clk_8<=0;
+	 else
+	   clk_8<=~clk_8;
+  end
+ 
+always@(*)
+  begin
+    case(clk_key)
+	   0: rom_clk=clk;
+		1: rom_clk=clk_2;
+		2: rom_clk=clk_4;
+		3: rom_clk=clk_8;
+		default: rom_clk=clk;
+	 endcase
+  end
+  
+always@(posedge clk or negedge rst_n)
+  begin
+    if(!rst_n)
+	   freq_seg<=8'h50;
+	 else 
+	   begin
+	     case(clk_key)
+		    0: freq_seg<=8'h50;
+		    1: freq_seg<=8'h25;
+		    2: freq_seg<=8'h12;
+		    3: freq_seg<=8'h06;
+		    default: freq_seg<=8'h50;
+		  endcase
+		end
+  end
+
+SG7   U1(freq_seg[7:4],SG1),
+		U2(freq_seg[3:0],SG0);
+
+  
+endmodule	
+
+		
+	   
+		  

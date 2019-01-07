@@ -1,15 +1,15 @@
   
 
-module Counter6(clk,m,en,rst,SG_0,SG_1,SG_2,d);
+module Counter6(clk,m,en,rst,SG_0,SG_1,SG_2,d,q);
 input clk,m,en,rst;
 output reg[6:0] SG_0,SG_1,SG_2;
 output reg d;
 (* synthesis,keep *) reg clk1;
 (* synthesis,keep *) wire [3:0] gw,sw,bw;
-reg [11:0] q;
+output reg [11:0] q;
 reg [11:0] model;
 reg [26:0] cnt;
-reg [11:0] counter;
+
 always @(posedge clk)
 begin cnt=cnt+1;
         //if(cnt==25000000)  实际电路
@@ -70,6 +70,7 @@ always @(m)
   assign gw=q[3:0];
   assign sw=q[7:4];
   assign bw=q[11:8];
+ 
   
   always @(posedge clk1 or negedge rst)
     begin

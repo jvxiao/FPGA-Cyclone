@@ -35,24 +35,24 @@
 # ERROR! Vector Mismatch for output port state[2] :: @time = 1000000.000 ps
 #      Expected value = 000
 #      Real value = 100
-# ERROR! Vector Mismatch for output port MY :: @time = 1490000.000 ps
+# ERROR! Vector Mismatch for output port MY :: @time = 1850000.000 ps
 #      Expected value = 0
 #      Real value = 1
-# ERROR! Vector Mismatch for output port state[0] :: @time = 1490000.000 ps
+# ERROR! Vector Mismatch for output port state[0] :: @time = 1850000.000 ps
 #      Expected value = 000
 #      Real value = 001
-# ERROR! Vector Mismatch for output port CG :: @time = 1530000.000 ps
+# ERROR! Vector Mismatch for output port CG :: @time = 1890000.000 ps
 #      Expected value = 0
 #      Real value = 1
-# ERROR! Vector Mismatch for output port MR :: @time = 1530000.000 ps
+# ERROR! Vector Mismatch for output port MR :: @time = 1890000.000 ps
 #      Expected value = 0
 #      Real value = 1
-# ERROR! Vector Mismatch for output port state[1] :: @time = 1530000.000 ps
+# ERROR! Vector Mismatch for output port state[1] :: @time = 1890000.000 ps
 #      Expected value = 000
 #      Real value = 010
-# ERROR! Vector Mismatch for output port CY :: @time = 1730000.000 ps
+# ERROR! Vector Mismatch for output port CY :: @time = 2090000.000 ps
 #      Expected value = 0
 #      Real value = 1
 #          11 mismatched vectors : Simulation failed !
-# ** Note: $finish    : Waveform.vwf.vt(928)
+# ** Note: $finish    : Waveform.vwf.vt(536)
 #    Time: 20 us  Iteration: 0  Instance: /traffic_vlg_vec_tst/tb_out

@@ -1,0 +1,209 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/04.FPGA/99.EXP/F_signal/simulation/modelsim
+vAM
+Z1 !s110 1545964894
+!i10b 1
+!s100 LkcK>f>bc2_iSdohFk^YO2
+IA1BW94SB>EjLGzU]lE]A93
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1545963382
+8E:/04.FPGA/99.EXP/F_signal/AM.v
+FE:/04.FPGA/99.EXP/F_signal/AM.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1545964894.000000
+!s107 E:/04.FPGA/99.EXP/F_signal/AM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/04.FPGA/99.EXP/F_signal|E:/04.FPGA/99.EXP/F_signal/AM.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+E:/04.FPGA/99.EXP/F_signal
+Z7 tCvgOpt 0
+n@a@m
+vfreq
+R1
+!i10b 1
+!s100 5:QWIb0641bf6@XGI?CH70
+Il6`2RGL1FgD9f^RimjcGL1
+R2
+R0
+w1545963531
+8E:/04.FPGA/99.EXP/F_signal/freq.v
+FE:/04.FPGA/99.EXP/F_signal/freq.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/04.FPGA/99.EXP/F_signal/freq.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/04.FPGA/99.EXP/F_signal|E:/04.FPGA/99.EXP/F_signal/freq.v|
+!i113 1
+R5
+R6
+R7
+vrectangle
+Z8 !s110 1545964896
+!i10b 1
+!s100 UedQhof0_LO5@073S]UNZ1
+Iab44e?1kDEm>IHKGH<cQF0
+R2
+R0
+w1544442865
+8E:/04.FPGA/99.EXP/F_signal/rectangle.v
+FE:/04.FPGA/99.EXP/F_signal/rectangle.v
+Z9 L0 39
+R3
+r1
+!s85 0
+31
+Z10 !s108 1545964896.000000
+!s107 E:/04.FPGA/99.EXP/F_signal/rectangle.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/04.FPGA/99.EXP/F_signal|E:/04.FPGA/99.EXP/F_signal/rectangle.v|
+!i113 1
+R5
+R6
+R7
+vsawtooth
+Z11 !s110 1545964895
+!i10b 1
+!s100 i_8<^zhaHIYRX6_IizXLD3
+IdXWAd7WjYo?[2E0UWUAOd3
+R2
+R0
+w1544442357
+8E:/04.FPGA/99.EXP/F_signal/sawtooth.v
+FE:/04.FPGA/99.EXP/F_signal/sawtooth.v
+R9
+R3
+r1
+!s85 0
+31
+Z12 !s108 1545964895.000000
+!s107 E:/04.FPGA/99.EXP/F_signal/sawtooth.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/04.FPGA/99.EXP/F_signal|E:/04.FPGA/99.EXP/F_signal/sawtooth.v|
+!i113 1
+R5
+R6
+R7
+vsin
+R11
+!i10b 1
+!s100 Z]a8GK6^Gh`31gCiOPHP<0
+I?fL@n?doJ8UYIJ3BQi1>F3
+R2
+R0
+w1545399818
+8E:/04.FPGA/99.EXP/F_signal/sin.v
+FE:/04.FPGA/99.EXP/F_signal/sin.v
+R9
+R3
+r1
+!s85 0
+31
+R12
+!s107 E:/04.FPGA/99.EXP/F_signal/sin.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/04.FPGA/99.EXP/F_signal|E:/04.FPGA/99.EXP/F_signal/sin.v|
+!i113 1
+R5
+R6
+R7
+vtop_signal
+R1
+!i10b 1
+!s100 PQQ3od9O`kX]alCX4R`9M2
+Id=dTgH9IiYn0h@;U9[@QM1
+R2
+R0
+w1545964503
+8E:/04.FPGA/99.EXP/F_signal/top_signal.v
+FE:/04.FPGA/99.EXP/F_signal/top_signal.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/04.FPGA/99.EXP/F_signal/top_signal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/04.FPGA/99.EXP/F_signal|E:/04.FPGA/99.EXP/F_signal/top_signal.v|
+!i113 1
+R5
+R6
+R7
+vtop_signal_vlg_tst
+R8
+!i10b 1
+!s100 2?5dolgWG:?GHTK33Bz^c1
+I3TFJ@3gl_HWfXgPGzAA4_2
+R2
+R0
+w1545925947
+8E:/04.FPGA/99.EXP/F_signal/simulation/modelsim/top_signal.vt
+FE:/04.FPGA/99.EXP/F_signal/simulation/modelsim/top_signal.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R10
+!s107 E:/04.FPGA/99.EXP/F_signal/simulation/modelsim/top_signal.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/04.FPGA/99.EXP/F_signal/simulation/modelsim|E:/04.FPGA/99.EXP/F_signal/simulation/modelsim/top_signal.vt|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+E:/04.FPGA/99.EXP/F_signal/simulation/modelsim
+R7
+vtriangle
+R11
+!i10b 1
+!s100 0XR^GN@J1ikBoW<31:TXh3
+IdDD3hgH?DX;gebA0kJR9l1
+R2
+R0
+w1544442299
+8E:/04.FPGA/99.EXP/F_signal/triangle.v
+FE:/04.FPGA/99.EXP/F_signal/triangle.v
+R9
+R3
+r1
+!s85 0
+31
+R12
+!s107 E:/04.FPGA/99.EXP/F_signal/triangle.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/04.FPGA/99.EXP/F_signal|E:/04.FPGA/99.EXP/F_signal/triangle.v|
+!i113 1
+R5
+R6
+R7
+vwave
+!s110 1545964893
+!i10b 1
+!s100 E^4fYFOk[25nz4QPK:`SY2
+I9VzW7aZ0kWEzgWA<8J0Cb0
+R2
+R0
+w1545963460
+8E:/04.FPGA/99.EXP/F_signal/wave.v
+FE:/04.FPGA/99.EXP/F_signal/wave.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1545964893.000000
+!s107 E:/04.FPGA/99.EXP/F_signal/wave.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/04.FPGA/99.EXP/F_signal|E:/04.FPGA/99.EXP/F_signal/wave.v|
+!i113 1
+R5
+R6
+R7

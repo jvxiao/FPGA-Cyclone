@@ -8,7 +8,10 @@ module top_clock(input clk,
 			        output [6:0]SG3,
 			        output [6:0]SG4,
 			        output [6:0]SG5,
-			        output led);
+			        output led,
+					 output [7:0]clock_hour,
+					output [7:0]clock_minute,
+					output [7:0]clock_second);
 			  
 
 wire clk_1s,clk_1ms,clk_20ms;
@@ -16,9 +19,9 @@ wire [3:0]key_o;
 wire [7:0]second;
 wire [7:0]minute;
 wire [7:0]hour;
-wire [7:0]clock_second;
+/*wire [7:0]clock_second;
 wire [7:0]clock_minute;
-wire [7:0]clock_hour;
+wire [7:0]clock_hour;*/
 wire [7:0]alarm_second;
 wire [7:0]alarm_minute;
 wire [7:0]alarm_hour;

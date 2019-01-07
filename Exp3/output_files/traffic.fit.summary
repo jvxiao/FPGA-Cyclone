@@ -1,4 +1,4 @@
-Fitter Status : Successful - Fri Nov 30 11:44:02 2018
+Fitter Status : Successful - Sun Dec 30 11:35:56 2018
 Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
 Revision Name : traffic
 Top-level Entity Name : traffic
@@ -7,7 +7,7 @@ Device : 5CSEMA5F31C6
 Timing Models : Preliminary
 Logic utilization (in ALMs) : 22 / 32,070 ( < 1 % )
 Total registers : 17
-Total pins : 40 / 457 ( 9 % )
+Total pins : 48 / 457 ( 11 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 4,065,280 ( 0 % )
 Total DSP Blocks : 0 / 87 ( 0 % )

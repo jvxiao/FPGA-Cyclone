@@ -1,0 +1,72 @@
+module wave(
+            input clk,
+            input rst_n,
+				input [1:0]wave_key,//波形控制键
+				output reg [7:0]rom_out//输出波形
+				);
+				
+wire [7:0]sin_out;
+wire [7:0]rectangle_out;
+wire [7:0]triangle_out;
+wire [7:0]sawtooth_out;
+reg  [8:0]address;
+
+sin sin_inst(
+             .address(address),
+	          .inclock(clk),
+	          .q(sin_out)
+	          );
+	
+rectangle rectangle_inst(
+             .address(address),
+				 .inclock(clk),
+				 .q(rectangle_out)
+	          );
+	
+triangle triangle_inst(
+             .address(address),
+	          .inclock(clk),
+	          .q(triangle_out)
+	          );
+
+sawtooth sawtooth_inst(
+             .address(address),
+	          .inclock(clk),
+	          .q(sawtooth_out)
+	          );
+				 
+				 
+
+always@(posedge clk or negedge rst_n)
+  begin
+    if(!rst_n)
+      address<=0;
+    else if(address==9'd511)
+	   address<=0;
+	 else
+	   address<=address+1;
+  end
+  
+always@(posedge clk or negedge rst_n)
+  begin
+    if(!rst_n)
+	   rom_out<=0;
+	 else 
+	   begin
+	     case(wave_key)
+		    0: rom_out<=sin_out;
+		    1: rom_out<=rectangle_out;
+		    2: rom_out<=triangle_out;
+			 3: rom_out<=sawtooth_out;
+		    default: rom_out<=0;
+		  endcase
+		end
+  end
+		  
+		
+
+  
+endmodule
+
+
+				

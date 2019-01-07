@@ -1,5 +1,5 @@
 EDA Netlist Writer report for sig
-Fri Nov 30 10:57:31 2018
+Sun Dec 30 12:47:53 2018
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Fri Nov 30 10:57:31 2018 ;
+; EDA Netlist Writer Status ; Successful - Sun Dec 30 12:47:53 2018 ;
 ; Revision Name             ; sig                                   ;
 ; Top-level Entity Name     ; sig                                   ;
 ; Family                    ; Cyclone V                             ;
@@ -81,14 +81,27 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
-    Info: Processing started: Fri Nov 30 10:57:30 2018
-Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off sig -c sig
+    Info: Copyright (C) 1991-2013 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, Altera MegaCore Function License 
+    Info: Agreement, or other applicable license agreement, including, 
+    Info: without limitation, that your use is for the sole purpose of 
+    Info: programming logic devices manufactured by Altera and sold by 
+    Info: Altera or its authorized distributors.  Please refer to the 
+    Info: applicable agreement for further details.
+    Info: Processing started: Sun Dec 30 12:47:51 2018
+Info: Command: quartus_eda --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=D:/work_and_study_ducuments/Verilog_Files/FPGA-Cyclone/Exp4/simulation/qsim/ sig -c sig
 Warning (10905): Generated the EDA functional simulation files although EDA timing simulation option is chosen.
 Info (204019): Generated file sig.vo in folder "D:/work_and_study_ducuments/Verilog_Files/FPGA-Cyclone/Exp4/simulation/qsim//" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 531 megabytes
-    Info: Processing ended: Fri Nov 30 10:57:32 2018
+    Info: Peak virtual memory: 529 megabytes
+    Info: Processing ended: Sun Dec 30 12:47:53 2018
     Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Total CPU time (on all processors): 00:00:02
 
 

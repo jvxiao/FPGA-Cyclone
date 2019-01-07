@@ -20,69 +20,9 @@
 # Loading work.top_clock_vlg_sample_tst
 # Loading work.top_clock_vlg_check_tst
 # Loading altera_ver.PRIM_GDFF_LOW
-# ERROR! Vector Mismatch for output port SG0[6] :: @time = 1000000.000 ps
-#      Expected value = 0000000
-#      Real value = 1000000
-# ERROR! Vector Mismatch for output port SG1[6] :: @time = 1000000.000 ps
-#      Expected value = 0000000
-#      Real value = 1000000
-# ERROR! Vector Mismatch for output port SG2[6] :: @time = 1000000.000 ps
-#      Expected value = 0000000
-#      Real value = 1000000
-# ERROR! Vector Mismatch for output port SG3[6] :: @time = 1000000.000 ps
-#      Expected value = 0000000
-#      Real value = 1000000
-# ERROR! Vector Mismatch for output port SG4[6] :: @time = 1000000.000 ps
-#      Expected value = 0000000
-#      Real value = 1000000
-# ERROR! Vector Mismatch for output port SG5[6] :: @time = 1000000.000 ps
-#      Expected value = 0000000
-#      Real value = 1000000
 # ERROR! Vector Mismatch for output port led :: @time = 1000000.000 ps
 #      Expected value = 0
 #      Real value = 1
-# ERROR! Vector Mismatch for output port SG0[0] :: @time = 2510000.000 ps
-#      Expected value = 0000000
-#      Real value = 1111001
-# ERROR! Vector Mismatch for output port SG0[3] :: @time = 2510000.000 ps
-#      Expected value = 0000000
-#      Real value = 1111001
-# ERROR! Vector Mismatch for output port SG0[4] :: @time = 2510000.000 ps
-#      Expected value = 0000000
-#      Real value = 1111001
-# ERROR! Vector Mismatch for output port SG0[5] :: @time = 2510000.000 ps
-#      Expected value = 0000000
-#      Real value = 1111001
-# ERROR! Vector Mismatch for output port SG0[2] :: @time = 7530000.000 ps
-#      Expected value = 0000000
-#      Real value = 0100100
-# ERROR! Vector Mismatch for output port SG4[0] :: @time = 12805000.000 ps
-#      Expected value = 0000000
-#      Real value = 1111001
-# ERROR! Vector Mismatch for output port SG4[3] :: @time = 12805000.000 ps
-#      Expected value = 0000000
-#      Real value = 1111001
-# ERROR! Vector Mismatch for output port SG4[4] :: @time = 12805000.000 ps
-#      Expected value = 0000000
-#      Real value = 1111001
-# ERROR! Vector Mismatch for output port SG4[5] :: @time = 12805000.000 ps
-#      Expected value = 0000000
-#      Real value = 1111001
-# ERROR! Vector Mismatch for output port SG2[0] :: @time = 20485000.000 ps
-#      Expected value = 0000000
-#      Real value = 1111001
-# ERROR! Vector Mismatch for output port SG2[3] :: @time = 20485000.000 ps
-#      Expected value = 0000000
-#      Real value = 1111001
-# ERROR! Vector Mismatch for output port SG2[4] :: @time = 20485000.000 ps
-#      Expected value = 0000000
-#      Real value = 1111001
-# ERROR! Vector Mismatch for output port SG2[5] :: @time = 20485000.000 ps
-#      Expected value = 0000000
-#      Real value = 1111001
-# ERROR! Vector Mismatch for output port SG0[1] :: @time = 22590000.000 ps
-#      Expected value = 0000000
-#      Real value = 0010010
-#          21 mismatched vectors : Simulation failed !
-# ** Note: $finish    : Waveform.vwf.vt(1001)
-#    Time: 40 us  Iteration: 0  Instance: /top_clock_vlg_vec_tst/tb_out
+#           1 mismatched vectors : Simulation failed !
+# ** Note: $finish    : Waveform.vwf.vt(641)
+#    Time: 10 us  Iteration: 0  Instance: /top_clock_vlg_vec_tst/tb_out

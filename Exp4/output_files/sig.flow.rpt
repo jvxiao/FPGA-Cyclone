@@ -1,5 +1,5 @@
 Flow report for sig
-Fri Nov 30 10:57:31 2018
+Sun Dec 30 12:47:53 2018
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Fri Nov 30 10:57:31 2018       ;
+; Flow Status                     ; Successful - Sun Dec 30 12:47:53 2018       ;
 ; Quartus II 64-Bit Version       ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
 ; Revision Name                   ; sig                                         ;
 ; Top-level Entity Name           ; sig                                         ;
@@ -106,7 +106,9 @@ applicable agreement for further details.
 ; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 529 MB              ; 00:00:02                           ;
 ; TimeQuest Timing Analyzer ; 00:00:06     ; 1.0                     ; 843 MB              ; 00:00:06                           ;
 ; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 520 MB              ; 00:00:01                           ;
-; Total                     ; 00:01:04     ; --                      ; --                  ; 00:01:19                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 529 MB              ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 529 MB              ; 00:00:01                           ;
+; Total                     ; 00:01:07     ; --                      ; --                  ; 00:01:21                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -121,6 +123,8 @@ applicable agreement for further details.
 ; EDA Netlist Writer        ; DESKTOP-722DI75  ; Windows 7 ; 6.2        ; x86_64         ;
 ; TimeQuest Timing Analyzer ; DESKTOP-722DI75  ; Windows 7 ; 6.2        ; x86_64         ;
 ; EDA Netlist Writer        ; DESKTOP-722DI75  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-722DI75  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-722DI75  ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
@@ -133,6 +137,8 @@ quartus_asm --read_settings_files=off --write_settings_files=off sig -c sig
 quartus_eda --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=D:/work_and_study_ducuments/Verilog_Files/FPGA-Cyclone/Exp4/simulation/qsim/ sig -c sig
 quartus_sta sig -c sig
 quartus_eda --read_settings_files=off --write_settings_files=off sig -c sig
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog sig -c sig --vector_source=D:/work_and_study_ducuments/Verilog_Files/FPGA-Cyclone/Exp4/Waveform.vwf --testbench_file=D:/work_and_study_ducuments/Verilog_Files/FPGA-Cyclone/Exp4/simulation/qsim/Waveform.vwf.vt
+quartus_eda --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=D:/work_and_study_ducuments/Verilog_Files/FPGA-Cyclone/Exp4/simulation/qsim/ sig -c sig
 
 
 

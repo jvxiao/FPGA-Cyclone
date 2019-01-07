@@ -12,6 +12,9 @@ entity top_clock is
         SG3             : out    vl_logic_vector(6 downto 0);
         SG4             : out    vl_logic_vector(6 downto 0);
         SG5             : out    vl_logic_vector(6 downto 0);
-        led             : out    vl_logic
+        led             : out    vl_logic;
+        clock_hour      : out    vl_logic_vector(7 downto 0);
+        clock_minute    : out    vl_logic_vector(7 downto 0);
+        clock_second    : out    vl_logic_vector(7 downto 0)
     );
 end top_clock;

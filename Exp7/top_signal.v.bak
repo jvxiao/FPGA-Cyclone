@@ -1,0 +1,45 @@
+module top_signal(
+                  input clk,
+						input rst_n,
+						input [1:0]clk_key,//频率选择键
+						input [1:0]wave_key,//波形控制键
+						input AM_key,//调幅按键
+			         input key_ctrl,//增幅还是减幅模式控制键
+						output [7:0]wave_data,
+						output [6:0]freq_seg
+						);
+						
+
+wire clk_out;
+wire [7:0]data;
+
+freq U1(
+        .clk(clk),
+		  .rst_n(rst_n),
+		  .clk_key(clk_key),
+		  .rom_clk(clk_out),
+		  .freq_seg(freq_seg),
+		  .SG0(SG0),
+		  .SG1(SG1)
+		  );
+
+		  
+wave U2(
+        .clk(clk),
+		  .rst_n(rst_n),
+		  .wave_key(wave_key),
+		  .rom_out(data)
+		  );
+		  
+		  
+AM U3(
+      .clk(clk),
+		.rst_n(rst_n),
+		.AM_key(AM_key),
+		.key_ctrl(key_ctrl),
+		.data(data),
+		.wave_data(wave_data)
+		);
+		
+endmodule
+		

@@ -1,0 +1,134 @@
+# Reading D:/program files (x86)/ALTERA/16.1/modelsim_ase/tcl/vsim/pref.tcl
+# do top_signal_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/program files (x86)/ALTERA/16.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/04.FPGA/99.EXP/F_signal {E:/04.FPGA/99.EXP/F_signal/wave.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:41:33 on Dec 28,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/04.FPGA/99.EXP/F_signal" E:/04.FPGA/99.EXP/F_signal/wave.v 
+# -- Compiling module wave
+# 
+# Top level modules:
+# 	wave
+# End time: 10:41:33 on Dec 28,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/04.FPGA/99.EXP/F_signal {E:/04.FPGA/99.EXP/F_signal/top_signal.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:41:34 on Dec 28,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/04.FPGA/99.EXP/F_signal" E:/04.FPGA/99.EXP/F_signal/top_signal.v 
+# -- Compiling module top_signal
+# 
+# Top level modules:
+# 	top_signal
+# End time: 10:41:34 on Dec 28,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/04.FPGA/99.EXP/F_signal {E:/04.FPGA/99.EXP/F_signal/freq.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:41:34 on Dec 28,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/04.FPGA/99.EXP/F_signal" E:/04.FPGA/99.EXP/F_signal/freq.v 
+# -- Compiling module freq
+# 
+# Top level modules:
+# 	freq
+# End time: 10:41:34 on Dec 28,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/04.FPGA/99.EXP/F_signal {E:/04.FPGA/99.EXP/F_signal/AM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:41:34 on Dec 28,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/04.FPGA/99.EXP/F_signal" E:/04.FPGA/99.EXP/F_signal/AM.v 
+# -- Compiling module AM
+# 
+# Top level modules:
+# 	AM
+# End time: 10:41:34 on Dec 28,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/04.FPGA/99.EXP/F_signal {E:/04.FPGA/99.EXP/F_signal/sin.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:41:35 on Dec 28,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/04.FPGA/99.EXP/F_signal" E:/04.FPGA/99.EXP/F_signal/sin.v 
+# -- Compiling module sin
+# 
+# Top level modules:
+# 	sin
+# End time: 10:41:35 on Dec 28,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/04.FPGA/99.EXP/F_signal {E:/04.FPGA/99.EXP/F_signal/triangle.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:41:35 on Dec 28,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/04.FPGA/99.EXP/F_signal" E:/04.FPGA/99.EXP/F_signal/triangle.v 
+# -- Compiling module triangle
+# 
+# Top level modules:
+# 	triangle
+# End time: 10:41:35 on Dec 28,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/04.FPGA/99.EXP/F_signal {E:/04.FPGA/99.EXP/F_signal/sawtooth.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:41:35 on Dec 28,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/04.FPGA/99.EXP/F_signal" E:/04.FPGA/99.EXP/F_signal/sawtooth.v 
+# -- Compiling module sawtooth
+# 
+# Top level modules:
+# 	sawtooth
+# End time: 10:41:35 on Dec 28,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/04.FPGA/99.EXP/F_signal {E:/04.FPGA/99.EXP/F_signal/rectangle.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:41:36 on Dec 28,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/04.FPGA/99.EXP/F_signal" E:/04.FPGA/99.EXP/F_signal/rectangle.v 
+# -- Compiling module rectangle
+# 
+# Top level modules:
+# 	rectangle
+# End time: 10:41:36 on Dec 28,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/04.FPGA/99.EXP/F_signal/simulation/modelsim {E:/04.FPGA/99.EXP/F_signal/simulation/modelsim/top_signal.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:41:36 on Dec 28,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/04.FPGA/99.EXP/F_signal/simulation/modelsim" E:/04.FPGA/99.EXP/F_signal/simulation/modelsim/top_signal.vt 
+# -- Compiling module top_signal_vlg_tst
+# 
+# Top level modules:
+# 	top_signal_vlg_tst
+# End time: 10:41:36 on Dec 28,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  top_signal_vlg_tst
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" top_signal_vlg_tst 
+# Start time: 10:41:37 on Dec 28,2018
+# Loading work.top_signal_vlg_tst
+# Loading work.top_signal
+# Loading work.freq
+# Loading work.wave
+# Loading work.sin
+# Loading altera_mf_ver.altsyncram
+# Loading work.rectangle
+# Loading work.triangle
+# Loading work.sawtooth
+# Loading work.AM
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) E:/04.FPGA/99.EXP/F_signal/simulation/modelsim/top_signal.vt(43): [TFMPC] - Too few port connections. Expected 9, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /top_signal_vlg_tst/i1 File: E:/04.FPGA/99.EXP/F_signal/top_signal.v
+# ** Warning: (vsim-3722) E:/04.FPGA/99.EXP/F_signal/simulation/modelsim/top_signal.vt(43): [TFMPC] - Missing connection for port 'SEG_WAVE'.
+# ** Warning: (vsim-3722) E:/04.FPGA/99.EXP/F_signal/simulation/modelsim/top_signal.vt(43): [TFMPC] - Missing connection for port 'SEG_AM'.
+# ** Warning: (vsim-3722) E:/04.FPGA/99.EXP/F_signal/simulation/modelsim/top_signal.vt(43): [TFMPC] - Missing connection for port 'SEG_FREQ'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 100 us
+# End time: 10:46:46 on Dec 28,2018, Elapsed time: 0:05:09
+# Errors: 0, Warnings: 4

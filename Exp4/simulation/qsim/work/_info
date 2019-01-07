@@ -4,78 +4,78 @@ K3
 cModel Technology
 Z0 dD:\work_and_study_ducuments\Verilog_Files\FPGA-Cyclone\Exp4\simulation\qsim
 vsig
-Z1 IePEa>VZZ31GhOkkAhKlc@3
-Z2 V]ZoYF8mmQJ0[PcOheajmD2
-Z3 dD:\work_and_study_ducuments\Verilog_Files\FPGA-Cyclone\Exp4\simulation\qsim
-Z4 w1543546593
-Z5 8sig.vo
-Z6 Fsig.vo
+Z1 !s100 MG09W9UdG<h[2[N5BU;6R1
+Z2 IePEa>VZZ31GhOkkAhKlc@3
+Z3 V]ZoYF8mmQJ0[PcOheajmD2
+Z4 dD:\work_and_study_ducuments\Verilog_Files\FPGA-Cyclone\Exp4\simulation\qsim
+Z5 w1546145273
+Z6 8sig.vo
+Z7 Fsig.vo
 L0 31
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 !s90 -work|work|sig.vo|
-Z9 o-work work -O0
+Z9 !s90 -work|work|sig.vo|
+Z10 o-work work -O0
 !i10b 1
-Z10 !s100 MG09W9UdG<h[2[N5BU;6R1
 !s85 0
-Z11 !s108 1543546613.268000
+Z11 !s108 1546145281.020000
 Z12 !s107 sig.vo|
 !s101 -O0
 vsig_vlg_check_tst
 !i10b 1
-Z13 !s100 DLG`m5onC_UelHj10TQka3
-Z14 IMEY77UI_KW[_1mKIPdlP]2
-Z15 VoD:eV6L5^7OPP>cg4c8@90
-R3
-Z16 w1543546587
-Z17 8Waveform.vwf.vt
-Z18 FWaveform.vwf.vt
+!s100 GJARiXX<gGh8>[aU4BFoQ1
+ImQ?R[@?IMhgD=3LUTO;Mi3
+Z13 VoD:eV6L5^7OPP>cg4c8@90
+R4
+Z14 w1546145269
+Z15 8Waveform.vwf.vt
+Z16 FWaveform.vwf.vt
 L0 61
-R7
+R8
 r1
 !s85 0
 31
-Z19 !s108 1543546618.277000
-Z20 !s107 Waveform.vwf.vt|
-Z21 !s90 -work|work|Waveform.vwf.vt|
+Z17 !s108 1546145282.143000
+Z18 !s107 Waveform.vwf.vt|
+Z19 !s90 -work|work|Waveform.vwf.vt|
 !s101 -O0
-R9
+R10
 vsig_vlg_sample_tst
 !i10b 1
-Z22 !s100 a`YU3JhZIBNCD[6:i:aJ^0
-Z23 IBEih7iL]ilfX5:IRFP]]S3
-Z24 VQmhgdU=[HdWm7hk82b[NU2
-R3
+Z20 !s100 a`YU3JhZIBNCD[6:i:aJ^0
+Z21 IBEih7iL]ilfX5:IRFP]]S3
+Z22 VQmhgdU=[HdWm7hk82b[NU2
+R4
+R14
+R15
 R16
-R17
-R18
 L0 29
-R7
+R8
 r1
 !s85 0
 31
+R17
+R18
 R19
-R20
-R21
 !s101 -O0
-R9
+R10
 vsig_vlg_vec_tst
 !i10b 1
-Z25 !s100 zg<4[6Tl^60AGWQCN5S`<3
-Z26 I_ZOn=>W[eah>>6AYADdFM0
-Z27 V@QbD^g8ojCCXBYJR`:^P=1
-R3
+!s100 CDTOLEllYG@JTCe9C3o=X3
+IcUz_B?iEb>aLNKSU3PK0a3
+Z23 V@QbD^g8ojCCXBYJR`:^P=1
+R4
+R14
+R15
 R16
-R17
-R18
-Z28 L0 344
-R7
+Z24 L0 344
+R8
 r1
 !s85 0
 31
+R17
+R18
 R19
-R20
-R21
 !s101 -O0
-R9
+R10

@@ -1,0 +1,58 @@
+module AM(
+          input clk,
+			 input rst_n,
+			 input AM_key,//调幅按键
+			 input key_ctrl,//增幅还是减幅模式控制键
+			 input [7:0]data,//此时波形数据
+			 output reg [7:0]wave_data//增/减幅度后输出的数据
+			 );
+			 
+reg [3:0]AM_cnt1;//减幅系数
+reg [1:0]AM_cnt2;//增幅系数
+
+always@(negedge AM_key or negedge rst_n)
+  begin
+    if(!rst_n)
+	   AM_cnt1<=1;
+	 else if(key_ctrl==2'b00)//此时为减幅模式
+	   begin
+		  if(AM_cnt1==4'd15)
+	       AM_cnt1<=1;
+	     else if(AM_key==0)
+	       AM_cnt1<=AM_cnt1+1;
+		  else
+		    AM_cnt1<=AM_cnt1;
+		end
+  end
+  
+ 
+always@(negedge AM_key or negedge rst_n)
+  begin
+    if(!rst_n)
+	   AM_cnt2<=1;
+    else if(key_ctrl==2'b01)//此时为增幅模式
+	   begin
+	     if(AM_cnt2==4'd3)
+	       AM_cnt2<=1;
+	     else if(AM_key==0)
+	       AM_cnt2<=AM_cnt2+1;
+		  else
+		    AM_cnt2<=AM_cnt2;
+		end
+  end
+ 
+
+//输出增减幅之后的幅度数据
+always@(posedge clk or negedge rst_n)
+  begin
+    if(!rst_n)
+	   wave_data<=data;
+	 else if(key_ctrl==0)
+	   wave_data <= data/AM_cnt1;
+	 else if(key_ctrl==1)
+	   wave_data <= data*AM_cnt2;
+  end
+  
+
+
+endmodule

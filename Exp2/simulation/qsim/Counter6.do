@@ -1,7 +1,7 @@
 onerror {exit -code 1}
 vlib work
 vlog -work work Counter6.vo
-vlog -work work Waveform1.vwf.vt
+vlog -work work Waveform.vwf.vt
 vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate work.Counter6_vlg_vec_tst -voptargs="+acc"
 vcd file -direction Counter6.msim.vcd
 vcd add -internal Counter6_vlg_vec_tst/*

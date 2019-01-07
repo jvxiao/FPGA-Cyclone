@@ -1,5 +1,5 @@
 
-module traffic(clk,rst_n,s,MR,MY,MG,CR,CY,CG,SG0,SG1,SG4,SG5, state);
+module traffic(clk,rst_n,s,MR,MY,MG,CR,CY,CG,SG0,SG1,SG4,SG5, state,sec_cnt);
 
 input clk;
 input rst_n;
@@ -13,6 +13,7 @@ output  reg CY;
 output  reg CG;
 output  reg [2:0]state;
 
+
 output [6:0]SG0;
 output [6:0]SG1;
 output [6:0]SG4;
@@ -20,19 +21,24 @@ output [6:0]SG5;
 
 
 reg clk_1s;
-reg [30:0]counter; //计数
-reg [7:0]sec_cnt;
+output reg [7:0]sec_cnt;
 reg [7:0]sec_cnt1;
 
 wire [3:0]sw;
 wire [3:0]gw;
 
-parameter [2:0] MGCR=3'd0,	//主绿乡红   
+parameter [2:0] MGCR=3'd0,	
+                MYCR=3'd1,	
+                MRCG=3'd2,	
+                MRCY=3'd3,	
+                MGCR_W=3'd4;	
+
+/*parameter [2:0] MGCR=3'd0,	//主绿乡红   
                 MYCR=3'd1,	//主黄乡红
                 MRCG=3'd2,	//主红乡绿
                 MRCY=3'd3,	//主绿乡黄     
                 MGCR_W=3'd4;	//主干路通行大于1min之后转换
-					
+	*/				
 
 //时钟分频电路，时间为1s
 /*always@(posedge clk or negedge rst_n)
